@@ -1,0 +1,7 @@
+﻿C:\Software\Visual Studios Enterprise 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT-350-RayTracer - N\Temp\) contains files shared from another project (RayTracer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Canvas.cpp
+  Main.cpp
+  Generating Code...
+  RayTracer.vcxproj -> C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT-350-RayTracer - N\Bin\GAT-RayTracer.exe
+  C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT-350-RayTracer - N\Source\ThirdParty\SDL2-devel-2.28.5-VC\SDL2-2.28.5\lib\x64\SDL2.dll
+  1 File(s) copied
