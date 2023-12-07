@@ -8,7 +8,7 @@ C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xut
   (compiling source file 'Main.cpp')
   C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
   the template instantiation context (the oldest one first) is
-  	C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\RayTracer\Main.cpp(43,23):
+  	C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\RayTracer\Main.cpp(54,23):
   	see reference to function template instantiation 'std::shared_ptr<Metal> std::make_shared<Metal,color3_t,int>(color3_t &&,int &&)' being compiled
   	C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
   	see reference to function template instantiation 'std::_Ref_count_obj2<Metal>::_Ref_count_obj2<_Ty,int>(_Ty &&,int &&)' being compiled
@@ -24,5 +24,5 @@ C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xut
           ]
   
   RayTracer.vcxproj -> C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Bin\GAT-RayTracer.exe
-  C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\ThirdParty\SDL2-devel-2.28.5-VC\SDL2-2.28.5\lib\x64\SDL2.dll
+  C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\ThirdParty\assimp\lib\Debug\assimp-vc143-mtd.dll
   1 File(s) copied

@@ -5,9 +5,12 @@
 #include "MathUtils.h"
 #include "Ray.h"
 #include "Random.h"
-#include <iostream>
 
-void Scene::Render(Canvas& canvas, int numSamples)
+#include <iostream>
+#include <iomanip>
+
+
+void Scene::Render(Canvas& canvas, int numSamples, int depth)
 {
 	for (int y = 0; y < canvas.GetSize().y; y++) {
 		for (int x = 0; x < canvas.GetSize().x; x++) {
@@ -23,14 +26,24 @@ void Scene::Render(Canvas& canvas, int numSamples)
 				point.y = 1.0f - point.y;
 				ray_t ray = m_camera->GetRay(point);
 
+				// cast ray into scene
+				// set color value from trace
 				raycastHit_t raycastHit;
-				color += Trace(ray, 0, 100, raycastHit, m_depth);
+				color += Trace(ray, 0, 100, raycastHit, depth);
 			}
 			color /= numSamples;
 
 			canvas.DrawPoint(pixel, color4_t(color, 1));
+			
+
 		}
+
+		std::cout << std::setprecision(2) << std::setw(5) << ((y / (float)canvas.GetSize().y) * 100) << "%\n";
+
+
 	}
+
+
 }
 
 color3_t Scene::Trace(const ray_t& ray, float minDistance, float maxDistance, raycastHit_t& raycastHit, int depth)
