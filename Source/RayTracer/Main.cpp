@@ -24,7 +24,7 @@ int main(int, char**)
 
     const int width = 500;
     const int height = 400;
-    const int samples = 5;
+    const int samples = 10;
     const int depth = 2;
 
     seedRandom((unsigned int)time(nullptr));
@@ -163,7 +163,7 @@ void InitScene02(Scene& scene, const Canvas& canvas)
 
     scene.SetCamera(camera);
    
-    auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, 1, 0 }, std::make_shared<Lambertian>(color3_t{ 0.2f }));
+    auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, 1, 0 }, std::make_shared<Lambertian>(color3_t{ 0.5f }));
     scene.AddObject(std::move(plane));
 
     auto mesh = std::make_unique<Mesh>(std::make_shared<Lambertian>(color3_t{ 0, 0, 1 }));
