@@ -17,7 +17,7 @@ void Scene::Render(Canvas& canvas, int numSamples)
 			color3_t color{ 1, 0, 0 };
 
 			for (int sample = 0; sample < numSamples; sample++)
-			{
+			{	
 				glm::vec2 point = (pixel + glm::vec2{ random01(), random01() }) / glm::vec2(canvas.GetSize().x, canvas.GetSize().y);
 
 				point.y = 1.0f - point.y;
