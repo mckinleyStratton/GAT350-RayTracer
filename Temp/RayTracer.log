@@ -1,7 +1,5 @@
 ﻿C:\Software\Visual Studios Enterprise 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Temp\) contains files shared from another project (RayTracer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.cpp
-  Plane.cpp
-  Generating Code...
   RayTracer.vcxproj -> C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Bin\GAT-RayTracer.exe
   C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\ThirdParty\assimp\lib\Debug\assimp-vc143-mtd.dll
   1 File(s) copied
