@@ -12,16 +12,10 @@ public:
 	{
 	}
 
-	void SetTransform(const glm::mat4& transform)
-	{
-		m_transform = transform;
-	}
-
 	bool Hit(const ray_t& ray, float minDistance, float maxDistance, raycastHit_t& hit) override;
 
 private:
 	glm::vec3 m_v1{ 0, 0, 0 };
 	glm::vec3 m_v2{ 0, 0, 0 };
 	glm::vec3 m_v3{ 0, 0, 0 };
-	glm::mat4 m_transform; // Transformation matrix for the triangle
 };

@@ -5,6 +5,8 @@
 
 bool Triangle::Hit(const ray_t& ray, float minDistance, float maxDistance, raycastHit_t& hit)
 {
+    raycastHit_t raycastHit;
+
     // set edges of the triangle
     glm::vec3 edge1 = m_v2 - m_v1;
     glm::vec3 edge2 = m_v3 - m_v1;
@@ -37,7 +39,6 @@ bool Triangle::Hit(const ray_t& ray, float minDistance, float maxDistance, rayca
         return false;
     }
 
-    raycastHit_t raycastHit;
     float t = dot(edge2, qvec) * invDet;
     if (t >= minDistance && t <= maxDistance)
     {
