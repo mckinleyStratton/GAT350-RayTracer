@@ -1,28 +1,5 @@
 ﻿C:\Software\Visual Studios Enterprise 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Temp\) contains files shared from another project (RayTracer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.cpp
-C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         with
-C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         [
-C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:             _Ty=int
-C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244:         ]
-  (compiling source file 'Main.cpp')
-  C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
-  the template instantiation context (the oldest one first) is
-  	C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\RayTracer\Main.cpp(54,23):
-  	see reference to function template instantiation 'std::shared_ptr<Metal> std::make_shared<Metal,color3_t,int>(color3_t &&,int &&)' being compiled
-  	C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
-  	see reference to function template instantiation 'std::_Ref_count_obj2<Metal>::_Ref_count_obj2<_Ty,int>(_Ty &&,int &&)' being compiled
-          with
-          [
-              _Ty=glm::vec3
-          ]
-  	C:\Software\Visual Studios Enterprise 2022\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
-  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,glm::vec<3,float,glm::packed_highp>,int>(_Ty &,glm::vec<3,float,glm::packed_highp> &&,int &&) noexcept(false)' being compiled
-          with
-          [
-              _Ty=Metal
-          ]
-  
   RayTracer.vcxproj -> C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Bin\GAT-RayTracer.exe
   C:\Users\mstratton\OneDrive - Neumont College of Computer Science\Neumont\Year 2\Q1 (Fall)\Computer Graphics\Visual Studio Projects\GAT350-RayTracer\Source\ThirdParty\assimp\lib\Debug\assimp-vc143-mtd.dll
   1 File(s) copied
