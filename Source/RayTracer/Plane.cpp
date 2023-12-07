@@ -2,6 +2,9 @@
 #include "MathUtils.h"
 #include "Material.h"
 
+#include <iostream>
+
+
 bool Plane::Hit(const ray_t& ray, float minDistance, float maxDistance, raycastHit_t& raycastHit)
 {
     float denominator = dot(ray.direction, m_normal);

@@ -97,10 +97,10 @@ void InitScene01(Scene& scene, const Canvas& canvas)
     //    }
     //}
 
-    auto triangle = std::make_unique<Triangle>(glm::vec3{ 1, 1, 20 }, glm::vec3{ -1, -1, -1 }, glm::vec3{ 0, 2, 0 }, std::make_shared<Lambertian>(color3_t{ 0, 0, 1 }));
-    scene.AddObject(std::move(triangle));
+    //auto triangle = std::make_unique<Triangle>(glm::vec3{ 1, 1, 20 }, glm::vec3{ -1, -1, -1 }, glm::vec3{ 0, 2, 0 }, std::make_shared<Lambertian>(color3_t{ 0, 0, 1 }));
+    //scene.AddObject(std::move(triangle));
 
-    auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, 1, 0 }, std::make_shared<Lambertian>(color3_t{ 0.2f }));
+    auto plane = std::make_unique<Plane>(glm::vec3{ 0, 0, 0 }, glm::vec3{ 0, 1, 0 }, std::make_shared<Lambertian>(color3_t{ 0.9f }));
     scene.AddObject(std::move(plane));
 
 }
